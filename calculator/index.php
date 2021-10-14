@@ -18,7 +18,16 @@ include '../../../mmlt_database/db.php';
             <a href="index.php">Home</a>
             <a href="view.php">View records / Edit</a>
             <a href="insert.php">Insert new record</a>
+
+            <h1>Calculator</h1>
+
+            <?php include 'calculator.php'; ?>
+
+
             <?php include 'view.php'; ?>
+            <br>
+            <br>
+            <?php include 'view_lvt.php'; ?>
 
         </div>
     </body>

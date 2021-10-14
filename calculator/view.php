@@ -9,9 +9,6 @@ include '../../../mmlt_database/db.php';
 
 <div class="form">
 <p>
-    <a href="index.php">Home</a>
-    <a href="insert.php">Insert new record</a>
-    <a href="view.php">View records</a>
 <h2>View Records</h2>
 <h3>Home Ready 30 Year</h3>
 <table width="100%" border="1" style="border-collapse:collapse;">
