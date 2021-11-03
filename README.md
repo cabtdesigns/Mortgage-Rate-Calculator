@@ -5,7 +5,7 @@ This client receives an excel file daily with new rates.
 They wanted to be able to use those rates on their website to calculate a users mortgage rate when the user inputs some basic information
 The client was not extremely technical so I had to make it easy for them to update the rate tables. I used <a href="https://github.com/markcell/jquery-tabledit">jQuery-Tabledit v1.2.3</a>
 to allow them to edit tables directly.
-This was later made to work on thier WordPress website as a plug in. I have striped it out to work as a stand alone app.
+This was later made to work on thier WordPress website as a plug in. I have striped it out to work as a stand alone app. Results are displayed to the right of the calculator on a desktop, and above the calculator on mobile.
 <a href="http://165.232.129.211/mmlt/calculator/index.php">Working example</a> can be seen <a href="http://165.232.129.211/mmlt/calculator/index.php">HERE</a>
 </p>
 
