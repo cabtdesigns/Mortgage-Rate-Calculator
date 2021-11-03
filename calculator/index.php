@@ -25,6 +25,7 @@ include '../insert_error.php';
 <html>
 
     <head>
+        <title>Mortgage Rate Calculator</title>
         <link rel="stylesheet" href="mmlt-calc.css">
     </head>
 

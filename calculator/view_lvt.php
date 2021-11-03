@@ -14,7 +14,7 @@ include ('../insert_error.php');
 
 ?>
 
-
+<link rel="stylesheet" href="mmlt-calc.css">
 
 <div class="form">
 
@@ -25,7 +25,7 @@ include ('../insert_error.php');
 <?php if($uri == !''){
 	echo '';
 	}
-	else {echo '<p> To edit the table; click on the cell you want to update, make your changes, then press enter.</p>';
+	else {echo '<p> <a href="view_lvt.php">Click Here</a> to edit table. To make changes to the table; click on the cell you want to update, make your changes, then press enter.</p>';
 	}
 ?>
 
