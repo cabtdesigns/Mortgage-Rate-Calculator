@@ -12,7 +12,7 @@
 
 
 
-include ('../insert_error.php');
+include ('../calculator/insert_error.php');
 
 
 
@@ -70,31 +70,13 @@ if(isset($_POST['new']) && $_POST['new']==1){
 
 ?>
 
-
-
-<!-- save results from database -->
-
-
-
-<!-- Lowest rate-->
-
-<?php include 'ratelowest.php'; ?>
-
-
-
 <!-- competitive rate -->
 
 <?php include 'rateCompetitive.php'; ?>
 
 
 
-<!-- Cash Out rate -->
-
-<?php include 'rateCashout.php'; ?>
-
-
-
-<link rel="stylesheet" id="rate_calculator" href="../calculator/mmlt-calculator.css" type="text/css" />
+<link rel="stylesheet" id="rate_calculator" href="mmlt-calc.css" type="text/css" />
 
 <!-- User input form -->
 

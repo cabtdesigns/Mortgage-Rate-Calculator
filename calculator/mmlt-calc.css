@@ -3,7 +3,9 @@
  * included in this file.
  */
  
- 
+ body{
+	 font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
  #calculatorWrapper{
 	clear: both;
 	display: flex;
@@ -34,10 +36,9 @@
  
 .calulatorField{
     border-radius: 25px;
-    border: 2px solid #609;
     padding: 20px; 
     width: 400px;
-    height: 45px;    
+    height: 10px;
 }
 
 .calculatorTitle{

@@ -32,11 +32,11 @@ include '../insert_error.php';
 
         <div>
 
-            <a href="index.php">Home</a>
+            <a href="index.php">Home</a> |
 
-            <a href="view.php">View records / Edit</a>
+            <a href="view.php">Edit 30 year Table</a> |
 
-            <a href="insert.php">Insert new record</a>
+            <a href="view_lvt.php">Edit LTV Table</a>
 
 
 
