@@ -1,5 +1,5 @@
 <?php
-include ('../calculator/insert_error.php');
+include ('../insert_error.php');
     if(!$conn){
 
         echo 'Connection error: ' . mysqli_connect_error();

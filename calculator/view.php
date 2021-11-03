@@ -1,6 +1,6 @@
 <?php
 
-include ('../calculator/insert_error.php');
+include ('../insert_error.php');
 
 
 // check connection
@@ -24,7 +24,7 @@ include ('../calculator/insert_error.php');
 <?php if($uri == !''){
 	echo '';
 	}
-	else {echo '<p> To edit the table; click on the cell you want to update, make your changes, then press enter.</p>';
+	else {echo '<p><a href="view.php">Click Here</a> to edit table. To make changes to the table; click on the cell you want to update, make your changes, then press enter.</p>';
 	}
 ?>
 
@@ -71,5 +71,5 @@ while($row = mysqli_fetch_assoc($result)) { ?>
 </table>
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script type="text/javascript" src="../wp-content/plugins/mmlt/admin/partials/jquery.tabledit.js"></script>
-<script type="text/javascript" src="../wp-content/plugins/mmlt/admin/partials/custom_table_edit.js"></script>
+<script type="text/javascript" src="jquery.tabledit.js"></script>
+<script type="text/javascript" src="custom_table_edit.js"></script>

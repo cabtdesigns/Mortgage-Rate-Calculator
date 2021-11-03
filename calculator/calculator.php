@@ -12,7 +12,7 @@
 
 
 
-include ('../calculator/insert_error.php');
+include ('../insert_error.php');
 
 
 
@@ -143,7 +143,7 @@ if(isset($_POST['new']) && $_POST['new']==1){
 		
 		if (empty($clicked)){
 
-        echo '<div class="calculatorTag"><img src="../calculator/calculatorTag2.jpg"></div>';
+        echo '<div class="calculatorTag"><img src="calculatorTag.jpg"></div>';
 
         }
 		elseif($lvtRate >= 80.01 || $userFico >= 851) {

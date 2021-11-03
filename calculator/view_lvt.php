@@ -1,6 +1,6 @@
 <?php
 
-include ('../calculator/insert_error.php');
+include ('../insert_error.php');
 
 
 
@@ -105,5 +105,5 @@ while($row = mysqli_fetch_assoc($result)) { ?>
 
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script type="text/javascript" src="../wp-content/plugins/mmlt/admin/partials/jquery.tabledit.js"></script>
-<script type="text/javascript" src="../wp-content/plugins/mmlt/admin/partials/custom_table_edit_lvt.js"></script>
+<script type="text/javascript" src="jquery.tabledit.js"></script>
+<script type="text/javascript" src="custom_table_edit_lvt.js"></script>

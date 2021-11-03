@@ -1,0 +1,88 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ 
+ 
+ #calculatorWrapper{
+	clear: both;
+	display: flex;
+	flex-wrap:wrap-reverse;
+	justify-content:center;
+	align-items: center;
+	gap: 20px;
+	width: 100%;
+	display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+	display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+	display: -ms-flexbox;      /* TWEENER - IE 10 */
+	display: -webkit-flex;     /* NEW - Chrome */
+ }
+ 
+ .calculator1{
+	 min-width:400px;
+	 background-color:#383536;
+	 padding:1em;
+	 height:100%;
+	 display:flex;
+	 flex-direction:column;
+	 gap:20px;
+ }
+ 
+ .calculatorResults{
+	 min-width:400px;
+ }
+ 
+.calulatorField{
+    border-radius: 25px;
+    border: 2px solid #609;
+    padding: 20px; 
+    width: 400px;
+    height: 45px;    
+}
+
+.calculatorTitle{
+	color:#fff;
+	font-weight:bold;
+}
+
+.calculatorFieldTitle{
+	color:#fff;
+}
+
+.calculatorSubmit{
+	color: #000 !important;
+	background-color:#D4AF37 !important;
+	font-size: 2em;
+	width: 100%;
+	height: 45px;
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+.calculatorSideResults{
+	color:#000;
+}
+
+.calculatorTag{
+	width:400px;
+	 height:100%;
+}
+
+.calculatorHR{
+	width:100%;
+	height:2px;
+	background-color:#fff;
+}
+
+.wp-block-pullquote blockquote{
+	border:0;
+}
+
+.site-header{
+	background-color:#000;
+}
+
+.page-id-520 .entry-title{
+display:none;
+}

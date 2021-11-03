@@ -1,6 +1,6 @@
 <?php
 
-include ('../calculator/insert_error.php');
+include ('../insert_error.php');
 
 
 
